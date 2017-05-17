@@ -1,0 +1,15 @@
+
+body {
+  font-family: helvetiva;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 7px;
+  margin-left: 7px;
+  border: solid 1px #000;
+  border-radius: 3px;
+}
