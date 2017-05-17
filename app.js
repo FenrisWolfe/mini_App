@@ -6,8 +6,8 @@ var data = [];
 function Student(first, last, status, plans) {
   this.first = first;
   this.last = last;
-  first.enrolled = status;
-  first.future_classes = plans;
+  this.enrolled = status;
+  this.future_classes = plans;
 }
 
 function formData(event) {
@@ -34,7 +34,7 @@ function createTable() {
   }
 
   table.appendChild(row);
-  
+
 }
 
 form.addEventListener('submit', formData);
