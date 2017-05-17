@@ -6,24 +6,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form id = "sample form">
+    <form id="sample_form">
       <fieldset>
         <label for="first">First Name:</label>
-        <input type="text" name="First" placeholder="enter your first name" required>
+        <input type="text" name="first" placeholder="enter your first name" required>
       </fieldset>
+
       <fieldset>
-        <label for="last">First Name:</label>
-        <input type="text" name="Last" placeholder="enter your last name" required>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" placeholder="enter your last name" required>
       </fieldset>
+
+      <fieldset>
+        <label for="enrolled">Are you currently in a class?</label>
+        <input type="checkbox" name="enrolled" value="enrolled" />
+      </fieldset>
+
       <fieldset>
         <label for="future_classes">Interested in future classes?</label>
-        <input type="radio" name="future_classes" value="yes" />Yes
-        <input type="radio" name="future_classes" value="no" />No
+        <input type="radio" name="future_classes" value="yes">Yes
+        <input type="radio" name="future_classes" value="no">No
       </fieldset>
 
     <button id="submit_btn" type="submit">Add Student!!</button>
     </form>
-    <section id="student">
+
+    <section id="students">
      <table>
        <thead>
          <td>First Name</td>
